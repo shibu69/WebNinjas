@@ -31,9 +31,9 @@ If you encounter any issues or have suggestions for improvement, please open an 
 ## Contributing
 We welcome contributions! If you'd like to contribute to the WebNinjas website, please follow these steps:
 
--Fork the repository.
--Create a new branch for your feature or bug fix.
--Make your changes and commit them with descriptive messages.
--Push your branch to your fork.
--Submit a pull request to the main branch of the original repository.
--Please ensure that your code follows the established coding standards and that you provide clear documentation for your changes.
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them with descriptive messages.
+- Push your branch to your fork.
+- Submit a pull request to the main branch of the original repository.
+- Please ensure that your code follows the established coding standards and that you provide clear documentation for your changes.
