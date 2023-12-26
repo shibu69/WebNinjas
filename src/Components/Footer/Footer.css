@@ -1,0 +1,119 @@
+#footer{
+    padding-top: 20px;
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#leftFoot{
+    margin-left: 30px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#leftTop h1{
+   font-size: 25px;
+   font-weight: 300;
+}
+#leftTop a button{
+    font-size: 18px;
+    margin-top: 20px;
+   padding: 15px 30px;
+   border-radius: 10px;
+   background: transparent;
+   color: rgb(210, 210, 210);
+   outline: none;
+   transition: all 0.5s;
+   border: 1px solid rgb(210, 210, 210);
+}
+
+#leftTop a button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+#leftBottom h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#rightFoot{
+    margin-right: 30px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#Lists{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#leftList ul{
+    list-style: none;
+}
+#leftList ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#rightList ul{
+    list-style: none; 
+}
+
+#rightList ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#rightBottom{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #footer{
+        display: block;
+        height: 30vh;
+    }
+
+    #leftFoot{
+        display: none;
+    }
+
+    #rightFoot{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #rightBottom{
+        text-align: center;
+        width: 100%;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+}

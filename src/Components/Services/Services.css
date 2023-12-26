@@ -1,0 +1,140 @@
+#serv-container{
+    height: 100vh;
+    width: 100%;
+}
+
+#page6{
+    width: 100%;
+}
+
+#pg6-head{
+    padding: 2vw 3vw 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    font-size: 1.5vw;
+}
+
+hr{
+    border: 0.01px solid black;
+    width: 93vw;
+    margin: auto;
+}
+
+#main-para{
+    padding: 1vw 1vw;
+    text-indent: 10vw;
+    font-size: 3.5vw;
+}
+
+
+.reveal {
+    position: relative;
+    z-index: 999;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 1.5s ease, opacity 1.5s ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+.revealpara {
+    position: relative;
+    z-index: 999;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 2.5s ease, opacity 2.5s ease;
+}
+
+.revealpara.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page4 video{
+    height: 100%;
+}
+
+#pg4-content{
+    position: absolute;
+    border: 2px solid rgb(255, 248, 248);
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+#pg4-content h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 800;
+}
+#pg4-content h4{
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+
+
+#page4-cursor{
+    height: 5vw;
+    width: 5vw;
+    background-color: #2b2e2bd3;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+    display: flex;
+    left: -1.9%;
+    top: -3%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #page4-cursor h5{
+    color: white;
+    font-size: 0.8vw;
+    font-weight: 900;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    #serv-container{
+        height: 50vh;
+        width: 100%;
+    }
+    #page4 video{
+        width: 90%;
+    }
+
+    #pg4-content{
+        width: 150px;
+        height: 150px;
+    }
+
+    #pg4-content h1{
+        font-size: 25px;
+        color: white;
+        font-weight: 800;
+    }
+    #pg4-content h4{
+        font-size: 9px;
+        color: white;
+        font-weight: 800;
+    }
+
+    #pg6-head{
+        font-size: 15px;
+    }
+  }
