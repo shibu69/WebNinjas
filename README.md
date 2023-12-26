@@ -2,6 +2,8 @@
 
 Welcome to WebNinjas, your go-to source for top-notch web development services! This repository contains the code for the WebNinjas website, a simple static website showcasing our expertise and offerings in the world of web development.
 
+**PREVIEW**  - https://web-ninjas-shibu.netlify.app/
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
